@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora Básica</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="calculator">
+    <div class="screen" id="result">0</div>
+    <button onclick="clearScreen()">C</button>
+    <button onclick="appendToScreen('/')">/</button>
+    <button onclick="appendToScreen('*')">*</button>
+    <button onclick="appendToScreen('7')">7</button>
+    <button onclick="appendToScreen('8')">8</button>
+    <button onclick="appendToScreen('9')">9</button>
+    <button onclick="appendToScreen('-')">-</button>
+    <button onclick="appendToScreen('4')">4</button>
+    <button onclick="appendToScreen('5')">5</button>
+    <button onclick="appendToScreen('6')">6</button>
+    <button onclick="appendToScreen('+')">+</button>
+    <button onclick="appendToScreen('1')">1</button>
+    <button onclick="appendToScreen('2')">2</button>
+    <button onclick="appendToScreen('3')">3</button>
+    <button onclick="calculate()">=</button>
+    <button onclick="appendToScreen('0')">0</button>
+    <button onclick="appendToScreen('.')">.</button>
+  </div>
+  <script src="calculator.js"></script>
+</body>
+</html>
+ 
